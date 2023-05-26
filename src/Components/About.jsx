@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am a final year student of electrical and electronics Engineering with industry focus on data science, machine learning, natural language processing and back end development using python, a MLSA. I enjoy solving problems with data.";
+  "I am a final year student of Electrical and Electronics Engineering with industry focus on data science, machine learning, natural language processing and back end development using python, a MLSA. I enjoy solving problems with data.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
