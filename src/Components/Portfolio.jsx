@@ -31,28 +31,23 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "News Categorization",
+    description: 
+    "How good are traditional machine learning approaches to text classification compared to deep learning (LLMs)? To answer this question, I scrapped data from a local news website, labeled the data, performed expository data analysis, explored with several models, and compared results. I also built an interactive demo for this project using Gradio, and a dockerized api following mlops and software engineering best principles. From myresults, I was able to infer that while transformers present a huge performance boost in terms of evaluation metrics for sequence classification tasks, we should not neglect traditional machine learning-based approaches as it leaves less carbon footprint, uses lower memory (744% less in my case), faster and produces quite good results (3.44% decrease inperformance for my case).",
+    url: "https://github.com/chimaobi-okite/NLP-Projects-Competitions/tree/main/NewsCategorization",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Loan Default Prediction",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Built a model for a superficial digital lending company to improve loan delivery services by predicting in advance how long it might take a customer to fulfill a loan agreement based on past behaviors prior to taking a new loan.",
+    url: "https://github.com/chimaobi-okite/Loan_Default_Prediction",
   },
+
   {
-    title: "My Resume Site",
+    title: "Decision Trees For Supervised Machine Learning - Demystifying The Workflow",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "An article I wrote on everything you need to know about decision trees for supervised machine learning.",
+    url: "https://chima.hashnode.dev/decision-trees-for-supervised-machine-learning-demystifying-the-workflow",
   },
 ];
 
